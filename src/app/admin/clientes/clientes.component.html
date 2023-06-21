@@ -1,0 +1,195 @@
+<div class="container pt-12">
+    <div class="row d-flex justify-content-center pb-5" style="margin-left: 73%">
+      <button  >
+        <a href="admin" class="btn btn-secondary " style="border-radius: 1em; margin-top: 1em; margin-left: 7em;">Regresar a Inicio</a>
+      </button>
+      
+    </div>
+    <div class="row justify-content-center">
+      
+      <div class="col-11 ">
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Cliente</th>
+              <th scope="col">E-mail</th>
+              <th scope="col">Teléfono</th>
+              <th scope="col">Sexo</th>
+              <th scope="col">Dirección</th>
+              <th scope="col">Puntos</th>
+              <th scope="col">Acciones</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row" >1</th>
+             
+              <td>User 1</td>
+              <td>User1@gmail.com</td>
+              <td>987654321</td>
+              <td>Masculino </td>
+              <td>Av. del User1 637 </td>
+              <td>35 </td>
+              <td>
+                <button  >
+                    <a  data-toggle="modal" data-target="#exampleModalCenter" style="border-radius: 1em; margin-top: 1em; ">
+                      <i class="fas fa-edit fa-lg" style=" margin-right:1em; "></i>
+                    </a>
+                  </button>
+                  <button  >
+                    <a  data-toggle="modal" data-target="#exampleModalCenter2" style="border-radius: 1em; margin-top: 1em; ">
+                      <i class="far fa-trash-alt  fa-lg"></i>
+                    </a>
+                  </button>
+            </tr>
+            <tr>
+                <th scope="row" >2</th>
+               
+                <td>User 2</td>
+                <td>User2@gmail.com</td>
+                <td>987654321</td>
+                <td>Masculino </td>
+                <td>Ca. del User2 892</td>
+                <td>35 </td>
+                <td>
+                    <button  >
+                        <a  data-toggle="modal" data-target="#exampleModalCenter" style="border-radius: 1em; margin-top: 1em; ">
+                          <i class="fas fa-edit fa-lg" style=" margin-right:1em; "></i>
+                        </a>
+                      </button>
+                      <button  >
+                        <a  data-toggle="modal" data-target="#exampleModalCenter2" style="border-radius: 1em; margin-top: 1em; ">
+                          <i class="far fa-trash-alt  fa-lg"></i>
+                        </a>
+                      </button>
+              </tr>
+              <tr>
+                <th scope="row" >3</th>
+               
+                <td>User 3</td>
+                <td>User3@gmail.com</td>
+                <td>987654321</td>
+                <td>Masculino </td>
+                <td>Jr. del User3 456</td>
+                <td>35 </td>
+                <td>
+                    <button  >
+                        <a  data-toggle="modal" data-target="#exampleModalCenter" style="border-radius: 1em; margin-top: 1em; ">
+                          <i class="fas fa-edit fa-lg" style=" margin-right:1em; "></i>
+                        </a>
+                      </button>
+                      <button  >
+                        <a  data-toggle="modal" data-target="#exampleModalCenter2" style="border-radius: 1em; margin-top: 1em; ">
+                          <i class="far fa-trash-alt  fa-lg"></i>
+                        </a>
+                      </button>
+              </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    
+  </div>
+  <!-- Modal Editar -->
+  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <p >Editar Cliente</p>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p> Editar Nombre</p>
+          <input class="form-control" type="text" placeholder="Nombre">
+        </div>
+        <div class="modal-body">
+          <span> Editar Teléfono</span>
+          <input class="form-control" type="text" placeholder="Teléfono">
+        </div>
+        <div class="modal-body">
+          <span> Editar Sexo</span>
+          <select class="form-control">
+            <option selected>Masculino</option>
+            <option>Femenino</option>
+          </select>
+        </div>
+    
+        <div class="modal-body">
+            <span> Editar Dirección</span>
+            <input class="form-control" type="text" placeholder="Dirección">
+          </div>
+
+          <div class="modal-body">
+            <span> Editar Puntos</span>
+            <select class="custom-select">
+              <option value="1">05</option>
+              <option value="2">10</option>
+              <option value="3">15</option>
+              <option value="4">20</option>
+              <option value="5">25</option>
+              <option value="6">30</option>
+              <option selected>35</option>
+              <option value="8">40</option>
+              <option value="9">45</option>
+              <option value="10">50</option>
+              <option value="11">55</option>
+              <option value="12">60</option>
+              <option value="13">65</option>
+              <option value="14">70</option>
+              <option value="15">75</option>
+              <option value="16">80</option>
+              <option value="17">85</option>
+              <option value="18">90</option>
+              <option value="19">95</option>
+              <option value="20">100</option>
+            </select>
+          </div>
+
+        <div class="modal-footer">
+          <a href="clientes" class="btn btn-success d-flex justify-content-center"  style="border-radius: 1em; margin-top: 1em; ">Guardar cambios</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Modal de borrar -->
+<div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          ¿Seguro que desea eliminar este cliente?
+        </div>
+        <div class="modal-footer">
+          <button  class="btn btn-secondary" data-dismiss="modal">Aceptar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+  
+  <!-- Linea de paginación -->
+  
+  <nav aria-label="Page navigation example">
+    <ul class="pagination justify-content-center">
+      
+      <li class="page-item"><a class="page-link" href="#">1</a></li>
+      <li class="page-item"><a class="page-link" href="#">2</a></li>
+      <li class="page-item"><a class="page-link" href="#">3</a></li>
+      <li class="page-item">
+        <a class="page-link" href="">Siguiente</a>
+      </li>
+    </ul>
+  </nav>
+  <style>
+    .titulo { font-size: 77px; text-shadow: 20px 15px 7px red;}
+  </style>

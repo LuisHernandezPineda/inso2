@@ -1,0 +1,65 @@
+<div class="container">
+    <div class="row justify-content-center">
+        <div style="padding: 10px; justify-content: center;" class="row mt-10">
+            <div class="col-10">
+                <div class="shadow p-3 mb-5 bg-white rounded">
+                    <div class="card-body ">
+                        <div style=" justify-content: center;" class="row mt-10">
+                            <div class="col-md-5">
+                                <img class="content" src="./assets/polo.jpg" alt="imagen"
+                                    style="height: 70%; width: 60%;" />
+                                <div class="input-group">
+                                    <label class="input-group-btn">
+                                        <span class="btn btn-primary ">Subir<input  class="hidden" type="file" ></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div style="text-align: start" class="col-md-4 ">
+
+                                <p style="font-size: 18px; margin-bottom: 0.5em;"><strong>Selecciona el color </strong></p>
+                               
+                                <ul class="color">
+                                  <li class="green"></li>
+                                  <li class="blue"></li>
+                                  <li class="red"></li>
+                                  <li class="purple"></li>
+                                  <li class="cyan"></li>
+                                  <li class="yellow"></li>
+                                </ul>
+                                <p style="font-size: 18px; margin-top: 0.5em;"><strong>Elegir Talla</strong></p>
+                                <select name="selectpolo">
+                                    <option value="value1">Seleccionar</option>
+                                    <option value="value2">S</option>
+                                    <option value="value3">M</option>
+                                    <option value="value4">L</option>
+                                    <option value="value5">XL</option>
+
+                                </select>
+                                <p style="font-size: 18px; margin-top: 0.5em;"><strong>Selecciona el tipo de entrega</strong></p>
+                                <select name="selectpolo">
+                                    <option value="value1">Seleccionar</option>
+                                    <option value="value2">Recojo en tienda</option>
+                                    <option value="value3">Envío a Domicilio</option>
+                                </select>
+                                <p style="font-size: 18px ; padding-top: 0.5em;"><strong>Cantidad de prendas</strong></p>
+                                    <input type="number" id="contador" class="form-control" value="0" min="1" />
+                     
+
+                                <p class="text-right">Total: <span id="total"></span>s&sol;</p>
+                         
+                            </div>
+                            
+                        </div>
+                        <div class ="row d-flex justify-content-center ">
+                            <button>
+                                <a href="carritocompras" class="btn btn-secondary "
+                                 style="border-radius: 1em; margin-top: 1em; ">Enviar Producto</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </div>
+</div>
